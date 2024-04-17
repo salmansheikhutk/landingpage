@@ -1,0 +1,13 @@
+.fullpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    color:white;
+}

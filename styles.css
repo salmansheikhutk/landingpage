@@ -108,3 +108,29 @@ ul {
     border-radius: 5px;
     font-size: 16px;
 }
+
+/* Side by Side */
+
+.sidebyside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+
+.fourimages {
+    display: flex;
+    gap: 10px;
+
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 10px;
+}

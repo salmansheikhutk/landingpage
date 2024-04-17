@@ -4,10 +4,32 @@
     justify-content: space-between;
 }
 
+/* Footer */
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:black;
     color:white;
+}
+
+/* Quote */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+}
+
+.quote-author {
+    align-self: flex-end;
+    padding-right: 100px;
+    color: black;
+}
+
+.quote-header {
+    font-family:Cambria;
+    font-weight: lighter;
+    color: black;
 }

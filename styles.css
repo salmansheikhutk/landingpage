@@ -53,12 +53,58 @@ ul {
 .header-buttons {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
 }
 
 .login:hover,
 .signup:hover,
-.aboutus:hover {
+.aboutus:hover,
+.button-signup:hover {
     cursor: pointer;
-    color: grey;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    /* border-radius makes rounded corners */
+}
+
+/* First Bar */
+
+.first-bar{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.computer {
+    width: 450px;
+    height: auto;
+}
+
+.container-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:350px;
+    height:350px;
+    gap: 5px; 
+}
+
+.container-first p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.container-first h1 {
+    margin: 0;
+}
+
+.button-signup {
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color:#2196F3;
+    border-radius: 5px;
+    font-size: 16px;
 }

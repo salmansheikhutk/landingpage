@@ -134,3 +134,27 @@ ul {
     border: 5px solid white;
     border-radius: 10px;
 }
+
+/* Button and Text */
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.button-text {
+    display: flex;
+    background-color: #2196F3;
+    margin:0;
+    align-items: center;
+    padding: 50px;
+    border-radius: 25px;
+    gap: 25px;
+}
+
+.button-words h3,
+.button-words p {
+    margin: 0;
+    color: white;
+}
